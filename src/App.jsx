@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
-import InfoCard from './components/Infocard';
+import InfoCard from './components/InfoCard';
 import Reviews from './components/Review';
 import Contact from './components/Contact';
 import Services from './components/Services';
