@@ -1,12 +1,97 @@
-# React + Vite
+Fama Barber Shop and Beauty Salon — Landing Page
+A modern, responsive React landing page for Fama Barber Shop and Beauty Salon, built with React and Tailwind CSS. The design features smooth scrolling navigation, a fixed navbar, and sections including Hero, About, Services, Reviews, Contact, and Footer.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+Responsive design for mobile and desktop
 
-Currently, two official plugins are available:
+Fixed navbar with toggleable mobile menu
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Smooth scrolling navigation to page sections
 
-## Expanding the ESLint configuration
+Accessible icons with react-icons
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Styled with Tailwind CSS
+
+Contact section with location, phone, hours, email, and Google Maps link
+
+Demo
+
+Technologies Used
+React
+
+Tailwind CSS
+
+React Icons
+
+Vite / Create React App (specify your setup)
+
+Google Maps embedded link
+
+Getting Started
+Prerequisites
+Node.js (v14 or higher recommended)
+
+npm or yarn
+
+Installation
+Clone the repo
+
+bash
+Copy
+Edit
+git clone https://github.com/yourusername/fama-barber-landing.git
+cd fama-barber-landing
+Install dependencies
+
+bash
+Copy
+Edit
+npm install
+# or
+yarn install
+Run the development server
+
+bash
+Copy
+Edit
+npm start
+# or
+yarn start
+Open http://localhost:3000 to view in the browser.
+
+Project Structure
+css
+Copy
+Edit
+src/
+  components/
+    Navbar.jsx
+    Hero.jsx
+    About.jsx
+    Services.jsx
+    InfoCard.jsx
+    Reviews.jsx
+    Contact.jsx
+    Footer.jsx
+  assets/
+    Logo.png
+  App.jsx
+  index.jsx
+tailwind.config.js
+package.json
+README.md
+Customization
+Update src/assets/Logo.png with your own logo
+
+Modify src/components/Contact.jsx to update contact details and Google Maps link
+
+Customize colors and fonts in tailwind.config.js if needed
+
+Deployment
+You can deploy the app using Vercel, Netlify, or any static hosting service:
+
+bash
+Copy
+Edit
+npm run build
+Then follow your platform's instructions to deploy the build or dist folder.
